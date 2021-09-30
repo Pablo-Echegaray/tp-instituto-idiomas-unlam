@@ -166,7 +166,7 @@ footer div{
 
 footer div:first-child{
     width: 60%;
-   
+   border: 3px solid black;
     text-align: center;
 }
 
