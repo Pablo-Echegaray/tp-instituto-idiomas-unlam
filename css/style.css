@@ -1,0 +1,168 @@
+:root{
+    --main-font: sans-serif;
+    --font-size: 1em;
+    --main-color: #f7df1e;
+    --second-color: #222;
+    --main-modal-color: rgba(247,222,30,0.85);
+    --second-modal-color: rgba(34, 34, 34, 0.85);
+    --container-width: 1200px;
+}
+
+/* html{
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+body{
+    
+    overflow-x: hidden; /*el contenido desbordante se oculta y no genera scroll horizontal*/
+    font-size: 60%;
+}
+
+img{
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+}
+
+/*ELEMENTOS CONTENIDOS EN EL ENCABEZADO*/
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+}
+
+header .contain{
+    display: flex;
+}
+
+header .contain div{
+    width: calc(50% - 0.5em);
+}
+
+header .contain .logo{
+    font-size: 2em;
+    
+    padding-left: 0.3em;
+}
+
+header .contain .logo i{
+    color: var(--second-color);
+}
+
+header .contain .social-media{
+    font-size: 1.5em;
+    text-align: right;
+    padding-top: 0.3em;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(209, 205, 205);
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    
+}
+
+/* nav ul li a{
+    text-decoration: none;
+    color: var(--second-color);
+    
+} */
+
+/*FIN ELEMENTOS CONTENIDOS EN EL ENCABEZADO*/
+/* H1 y buscador*/
+main section{
+    padding-top: 1em;
+    text-align: center;
+}
+
+
+
+/* fin H1 y buscador*/
+
+/*Articles .place | cada establecimiento*/
+main section .place{
+    margin: auto;
+    margin-top: 1em;
+    width: 60%;
+    /* background-color: #f7df1e; */
+}
+
+main section .place div {
+    text-align: start;
+}
+
+main section .place div button{
+   font-size: 1em;
+   border-radius: 10%;
+   background-color: greenyellow;
+   color:var(--second-color);
+}
+
+/*FIN Articles .place | cada establecimiento*/
+
+/*Footer*/
+/* 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f7df1e;
+}
+
+footer div{
+    width: calc(50% - 0.5em);
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+footer div:nth-child(2) ul{
+  
+    text-align: center;
+} */
+
