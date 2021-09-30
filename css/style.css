@@ -28,6 +28,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1{
     font-size: 1.5em;
     margin-bottom: 0.7em;
@@ -54,6 +58,10 @@ body{
     
     overflow-x: hidden; /*el contenido desbordante se oculta y no genera scroll horizontal*/
     font-size: 60%;
+}
+
+i{
+    font-size: 130%;
 }
 
 img{
@@ -182,6 +190,9 @@ footer div:nth-child(2) a{
   color:white;
 }
 
+/*FIN Footer*/
+
+/*Medias Querys*/
 @media screen and (min-width: 30em){
     body{
         
@@ -235,3 +246,45 @@ footer div:nth-child(2) a{
 }
 
 
+@media screen and (min-width: 45em){
+    body{
+        background-color: aqua;
+        font-size: 100%;
+    }
+
+    main section .search{
+        background-color: #f7df1e;
+    }
+
+    main section .search input{
+        width: 80%;
+    }
+
+    main section .place{
+        display: flex;
+        justify-content: space-around;
+        background-color: aliceblue;
+        width: 90%;
+    }
+
+    main section .place div{
+        width: 50%;
+        
+        text-align: start;
+
+    }
+
+    main section .place img{
+      
+       width: 40%;
+    }
+
+    main section .place div h2{
+        margin: 1em 0;
+    }
+
+    main section .place div button{
+        margin-top: 1em;
+    }
+   
+}
