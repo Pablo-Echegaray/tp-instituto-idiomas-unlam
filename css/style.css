@@ -104,6 +104,7 @@ nav ul{
     width: 100%;
     display: flex;
     list-style: none;
+    display: none;
     
 }
 
@@ -146,23 +147,47 @@ main section .place div button{
 /*FIN Articles .place | cada establecimiento*/
 
 /*Footer*/
-/* 
+
 footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #f7df1e;
+    background-color: rgb(104, 103, 103);
+    color: white;
+    padding: 0.5em;
+    margin-top: 0.8em;
 }
 
 footer div{
-    width: calc(50% - 0.5em);
-    border: 2px solid black;
+   /*  width: calc(50% - 0.5em); */
+    
+   
+}
+
+footer div:first-child{
+    width: 60%;
+   
     text-align: center;
 }
 
+footer div h3{
+    margin-bottom: 0.5em;
+}
 
-footer div:nth-child(2) ul{
-  
-    text-align: center;
-} */
+footer div:first-child h3{
+   text-align: left;
+   padding-left: 0.4em;
+   
+}
+
+
+
+footer div:last-child{
+    display: none;
+}
+
+footer div:nth-child(2) a{
+  color:white;
+}
+
 
