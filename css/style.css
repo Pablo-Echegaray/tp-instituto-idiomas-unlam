@@ -243,12 +243,20 @@ footer div:nth-child(2) a{
     i{
         font-size: 200%;
     }
+
+    header .social-media a i{
+        font-size: 150%;
+    }
 }
 
 
 @media screen and (min-width: 45em){
     body{
         background-color: aqua;
+        font-size: 100%;
+    }
+
+    header .social-media a i{
         font-size: 100%;
     }
 
@@ -287,4 +295,37 @@ footer div:nth-child(2) a{
         margin-top: 1em;
     }
    
+}
+
+@media screen and (min-width: 60em){
+    body{
+        font-size: 140%;
+        
+    }
+
+    header .social-media a i{
+        font-size: 80%;
+    }
+
+    header,main,footer{
+        max-width: 70em;
+        margin: 0 auto;
+    }
+
+    main section .search input{
+        width: 90%;
+        max-width: 60em;
+        height: 3em;
+    }
+
+    main section .place{
+        max-width: 52rem;
+        margin-top: 0.3em;
+    }
+
+    footer{
+        margin-top: 1em;
+    }
+
+    
 }
