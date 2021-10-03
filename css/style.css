@@ -62,6 +62,12 @@ body{
 
 i{
     font-size: 130%;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+i:hover{
+    transform: scale(1.09)
 }
 
 img{
@@ -75,6 +81,7 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: rgb(209, 205, 205);
    
 
 }
@@ -105,7 +112,7 @@ header .contain .social-media{
 
 nav{
     width: 100%;
-    background-color: rgb(209, 205, 205);
+    background-color: var(--second-color);
 }
 
 nav ul{
@@ -114,6 +121,19 @@ nav ul{
     list-style: none;
     display: none;
     
+}
+
+header nav ul li{
+    transition: 0.2s all;
+}
+
+header nav ul li:hover {
+    transform: scale(1.08);
+    
+ }
+
+nav ul li a{
+    color: white;
 }
 
 /* nav ul li a{
@@ -147,9 +167,18 @@ main section .place div {
 
 main section .place div button{
    font-size: 1em;
-   border-radius: 10%;
-   background-color: greenyellow;
+   width: 6em;
+   border-radius: 0.3em;
+   background-color: gray;
+   border: 2px solid var(--second-color);
    color:var(--second-color);
+   cursor: pointer;
+   transition: 0.2s all;
+}
+
+main section .place div button:hover{
+    transform: scale(1.01);
+    box-shadow: 0.07em 0.04em 0.3em var(--second-color);
 }
 
 /*FIN Articles .place | cada establecimiento*/
@@ -160,7 +189,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgb(104, 103, 103);
+    background-color: var(--second-color);
     color: white;
     padding: 0.5em;
     margin-top: 0.8em;
@@ -186,6 +215,10 @@ footer div:last-child{
     display: none;
 }
 
+footer div:last-child i{
+    color:white;
+}
+
 footer div:nth-child(2) a{
   color:white;
 }
@@ -200,7 +233,7 @@ footer div:nth-child(2) a{
     }
     
     main section .place div{
-        background-color: #f7df1e;
+        *background-color: #f7df18;
         text-align: center;
 
     }
@@ -252,16 +285,34 @@ footer div:nth-child(2) a{
 
 @media screen and (min-width: 45em){
     body{
-        background-color: aqua;
-        font-size: 100%;
+        *background-color: aqua;
+        font-size: 90%;
     }
 
     header .social-media a i{
         font-size: 100%;
     }
 
+    header nav ul{
+        padding: 0 7em 0 7em;
+        background-color: var(--second-color);
+    }
+
+    header nav ul{
+        font-size: 80%;
+    }
+
+    header nav ul li{
+        transition: 0.2s all;
+    }
+
+    header nav ul li:hover {
+        transform: scale(1.08);
+        
+     }
+
     main section .search{
-        background-color: #f7df1e;
+        *background-color: #f7df1e;
     }
 
     main section .search input{
@@ -271,7 +322,7 @@ footer div:nth-child(2) a{
     main section .place{
         display: flex;
         justify-content: space-around;
-        background-color: aliceblue;
+        *background-color: aliceblue;
         width: 90%;
     }
 
@@ -299,7 +350,7 @@ footer div:nth-child(2) a{
 
 @media screen and (min-width: 60em){
     body{
-        font-size: 140%;
+        font-size: 110%;
         
     }
 
@@ -325,6 +376,10 @@ footer div:nth-child(2) a{
 
     footer{
         margin-top: 1em;
+    }
+
+    footer div:last-child i{
+        font-size: 100%;
     }
 
     
