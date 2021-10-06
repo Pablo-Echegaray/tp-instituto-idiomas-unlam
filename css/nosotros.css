@@ -1,0 +1,28 @@
+main{
+    margin:5%;
+}
+  
+  h2{
+    text-align:center;
+  }
+  .nosotros{
+    display:flex;
+
+  }
+  .profesores_container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr; 
+
+    margin: 3%;
+  }
+  
+  .foto_profesor{
+    width:220px;
+    height:180px;
+    background-color: black;
+    margin-bottom: 5%;
+    }
+  .foto_profesor:hover{
+    transform:scale(1.2)
+    }

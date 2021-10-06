@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    max-width: 30em;
+}
+article .curso{
+    display: flex;
+    margin-bottom: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-radius:4px;
+}
+a:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+.tittulo{
+    text-align: center;
+}
+.contenedor-seleccion{
+ text-align: right;    
+}
+.contenedor-mes{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+.mes{
+    text-align: left;
+    margin-left: 100px;
+}
+.img-resp{
+    width:250px;
+    height:180px;
+    
+    border-radius:6px;
+}
