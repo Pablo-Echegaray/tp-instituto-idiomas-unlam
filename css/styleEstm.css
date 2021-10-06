@@ -24,7 +24,7 @@ img{
 
     main section:first-of-type div{
         width: 35%;
-        background-color: aliceblue;
+        *background-color: aliceblue;
     }
 
     main section:first-of-type div ul li {
