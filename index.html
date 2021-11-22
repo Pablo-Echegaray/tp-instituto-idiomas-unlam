@@ -126,11 +126,10 @@
                 <h3 class="formulario__titulo">          Busca el curso e inscribite</h3>
                 <div class="formulario__grupo1">
                 <label for="provincia">Seleccione la provincia</label>
-                <select name="provincia">
-                    <option value=“GBA”>GBA</option>
-                    <option value=“Bs_As”>Buenos Aires</option>
-                    <option value=“Sta_Fe”>Santa Fé</option>
-                    <option value=“Córdoba”>Córdoba</option>
+                <select name="provincia" id='provincia'>
+                    <option value="Bs_As">Buenos Aires</option>
+                    <option value="Sta_Fe">Santa Fé</option>
+                    <option value="Cordoba">Córdoba</option>
                 </select>
                 <p>Nombre del Establecimiento:</p>
                 <p>Dirección:</p>
@@ -141,11 +140,11 @@
         
                 <div class="formulario__grupo2">
                 <label for="establecimiento">Seleccione el Establecimiento</label>
-                <select name="establecimiento">
-                    <option value=“Morón”>Morón</option>
+                <select name="establecimiento" id='ciudad'>
+                   <!--  <option value=“Morón”>Morón</option>
                     <option value=“Ramos”>Ramos Mejia</option>
                     <option value=“Sjusto”>San Justo</option>
-                    <option value=“Ituzaingo”>Ituzaingo</option>
+                    <option value=“Ituzaingo”>Ituzaingo</option> -->
                 </select>
         
                 <label for="horarios">horarios y modalidad</label>
@@ -195,6 +194,7 @@
             <a><i class="fab fa-whatsapp-square"></i></a>
         </div>
        <!--  &copy; Copyrigth - 2021 -->
+       <script src="./js/select-dinamico.js"></script>
     </footer>
 </body>
 </html>

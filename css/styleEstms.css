@@ -32,6 +32,8 @@ img{
 main section{
     padding-top: 1em;
     text-align: center;
+    display: grid;
+    
 }
 
 
@@ -62,6 +64,12 @@ main section .place div button:hover{
     transform: scale(1.01);
     box-shadow: 0.07em 0.04em 0.3em var(--second-color);
 }
+
+.filter{
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+} 
 
 /*FIN Articles .place | cada establecimiento*/
 
